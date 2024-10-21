@@ -1,10 +1,16 @@
-import './App.css';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css";
+import MoreDetails from "./routes/MoreDetails";
+import HomePage from "./routes/HomePage";
 
-function App() {
-
+export default function App() {
   return (
-  <h1>App</h1>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="more-details" element={<MoreDetails />} />
+        <Route path="*" element={<HomePage />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
-
-export default App
