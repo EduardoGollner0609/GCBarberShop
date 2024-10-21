@@ -1,0 +1,18 @@
+button {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #d9d9d9;
+    color: #d9d9d9;
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: #232323;
+    cursor: pointer;
+  }
+
+  @media (max-width: 768px) {
+    button {
+      padding: 10px;
+      font-size: 16px;
+    }
+  }
