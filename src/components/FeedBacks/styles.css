@@ -1,0 +1,25 @@
+.container h1 {
+    text-align: center;
+    color: #d9d9d9;
+}
+
+.card-feedback {
+    background-color: #232323;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 20px;
+font-size: 18px;
+text-transform: uppercase;
+color: #d9d9d9;
+}
+
+.card-feedback-bottom {
+    display: flex;
+gap: 20px;
+    max-width: 800px;
+    margin-top: 5px;
+}
+
+.star {
+    color: gold;
+}
