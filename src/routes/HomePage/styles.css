@@ -4,7 +4,7 @@
   background-size: cover;
   background-attachment: fixed;
   background-image: url("../../assets/fundo-barbearia.png");
-filter: brightness(80%);
+  filter: brightness(80%);
 }
 
 .home-page-content {
